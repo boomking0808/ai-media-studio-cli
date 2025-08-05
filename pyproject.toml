@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-media-studio-cli"
+version = "2.0.0"
+description = "AI Media Studio CLI - Professional Multi-Modal AI Media Generation Tool by Abdulrahman Elsmmany"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp[speedups]>=3.12.15",
+    "google-cloud-storage>=3.2.0",
+    "google-genai>=1.28.0",
+    "inquirer>=3.4.1",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.1.0",
+    "python-dotenv>=1.1.1",
+    "rich>=14.1.0",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+ai-studio = "ai_media_studio_cli.main:app"
+
+[tool.uv]
+package = true

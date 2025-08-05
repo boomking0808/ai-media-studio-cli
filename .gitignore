@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-
+.env
+
+# Virtual environments
+.venv
+
+# Tests
+tests/
+test_veo3_video_extension.py
+
+# CLAUDE Files (project-specific)
+.claude/
+PRPs/
+examples/
+INITIAL.md
+INITIAL_EXAMPLE.md
+CLAUDE.md
+PLANNING.md
+TASK.md
+ADDING_NEW_MODELS.md
+TEST_VEO3_EXTENSION.md
+
+# Sample files (project-specific)
+downloaded_media/
