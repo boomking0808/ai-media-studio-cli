@@ -21,6 +21,97 @@
 
 ---
 
+## 🖼️ Experience AI Media Studio CLI
+
+<div align="center">
+  
+### ✨ **Beautiful Terminal Interface for AI Media Generation**
+
+![AI Media Studio CLI Interface](https://raw.githubusercontent.com/Abdulrahman-Elsmmany/Abdulrahman-Elsmmany/6a82e88919a47c45b5b7dd095a0a854bb4995054/assets/ai-media-studio-cli.png)
+
+*🎬 Professional Multi-Modal AI Media Generation Tool with an intuitive terminal interface*
+
+</div>
+
+### 🎯 **Launch Interactive Mode**
+
+```bash
+# Start the beautiful interactive experience
+ai-studio interactive
+```
+
+**Interactive Features:**
+- 🎨 **Smart Media Selection** - Choose between Video, Image, or Music generation
+- 🤖 **AI Model Showcase** - Compare capabilities of different models
+- 📐 **Visual Parameter Config** - Real-time validation and previews
+- 💡 **Prompt Writing Guide** - Built-in tips for each media type
+- 📊 **Generation Preview** - See what you're about to create
+- 🎯 **Intelligent Recommendations** - AI-powered suggestions
+- 📁 **Automatic Organization** - Smart file management by media type
+
+---
+
+## 🎯 Why AI Media Studio CLI?
+
+### ✨ **One Tool, All Media Types**
+- 🎬 **Video Generation** with Google's latest Veo models
+- 🖼️ **Image Creation** with Imagen (coming soon)
+- 🎵 **Music Composition** with MusicLM (planned)
+- 🎭 **Beautiful Interactive Mode** for easy media generation
+- 📁 **Smart Organization** - Auto-sorts all your generated media
+
+### 🚀 **Built for Creators**
+- ⚡ **Fast Generation** - Optimized for quick results
+- 🎨 **Professional Quality** - Using Google's best AI models
+- 💻 **Developer Friendly** - Clean CLI with intuitive commands
+- 🔄 **Extensible** - Easy to add new models and features
+
+---
+
+## 🚀 Quick Start Guide
+
+### 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Abdulrahman-Elsmmany/ai-media-studio-cli.git
+cd ai-media-studio-cli
+
+# Install dependencies with UV (recommended)
+uv sync
+
+# Alternative: Install with pip
+pip install -e .
+```
+
+### ⚙️ Configuration
+
+Create your `.env` file with Google AI credentials:
+
+```env
+# 🔑 Google AI API Configuration
+GOOGLE_CLOUD_PROJECT=your-project-id
+GOOGLE_CLOUD_LOCATION=us-central1
+GOOGLE_GENAI_USE_VERTEXAI=True
+GOOGLE_API_KEY=your-google-api-key
+
+# 🪣 Google Cloud Storage Configuration
+GOOGLE_CLOUD_STORAGE_BUCKET=your-bucket-name
+GOOGLE_CLOUD_STORAGE_PATH=videos
+```
+
+### 🎯 Get Started in 30 Seconds
+
+```bash
+# 🎬 Generate your first video
+ai-studio generate video -p "a cinematic sunset over mountains"
+
+# 🎭 Or use interactive mode (recommended)
+ai-studio interactive
+```
+
+---
+
 ## ✨ Multi-Modal AI Capabilities
 
 <table>
@@ -70,62 +161,30 @@
 
 ---
 
-## 🚀 Quick Start Guide
+## 🎯 Usage Examples
 
-### 📦 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Abdulrahman-Elsmmany/ai-media-studio-cli.git
-cd ai-media-studio-cli
-
-# Install dependencies with UV (recommended)
-uv sync
-
-# Alternative: Install with pip
-pip install -e .
-```
-
-### ⚙️ Configuration
-
-Create your `.env` file with Google AI credentials:
-
-```env
-# 🔑 Google AI API Configuration
-GOOGLE_CLOUD_PROJECT=your-project-id
-GOOGLE_CLOUD_LOCATION=us-central1
-GOOGLE_GENAI_USE_VERTEXAI=True
-GOOGLE_API_KEY=your-google-api-key
-
-# 🪣 Google Cloud Storage Configuration
-GOOGLE_CLOUD_STORAGE_BUCKET=your-bucket-name
-GOOGLE_CLOUD_STORAGE_PATH=videos
-```
-
-### 🎯 Basic Usage
+### 🎬 **Quick Video Generation**
 
 ```bash
-# 🎬 Generate videos with AI (auto-organized in downloaded_media/videos/)
+# Simple video generation
 ai-studio generate video -p "a majestic eagle soaring over mountains"
 
-# 🖼️ Create images with AI (coming soon)
-ai-studio generate image -p "futuristic cityscape at sunset"
+# With specific model and settings
+ai-studio generate video \
+  --prompt "cinematic drone shot of ocean waves at sunset" \
+  --model veo3-001 \
+  --aspect-ratio 16:9
+```
 
-# 🎵 Compose music with AI (planned)
-ai-studio generate music -p "upbeat jazz composition"
+### 📁 **Automatic Media Organization**
 
-# 🎭 Interactive mode (recommended for beginners)
-ai-studio interactive
-
-# 📚 View all available options
-ai-studio --help
-
-# 📁 Generated media is automatically organized:
-# downloaded_media/
-# ├── videos/    - .mp4, .avi, .mov files
-# ├── images/    - .jpg, .png, .gif files  
-# ├── audios/    - .mp3, .wav, .flac files
-# └── unknown/   - Other file types
+```bash
+# All generated media is auto-organized:
+downloaded_media/
+├── videos/    # .mp4, .avi, .mov files
+├── images/    # .jpg, .png, .gif files  
+├── audios/    # .mp3, .wav, .flac files
+└── unknown/   # Other file types
 ```
 
 ---
@@ -262,24 +321,6 @@ ai-studio generate image \
 
 ---
 
-## 🖼️ Interactive Multi-Modal Experience
-
-Launch the beautiful unified interface:
-
-```bash
-ai-studio interactive
-```
-
-**Features Include:**
-- 🎨 **Media type selection** (Video/Image/Music)
-- 🤖 **Model comparison** with capability previews
-- 📐 **Parameter configurator** with real-time validation
-- 💡 **Prompt writing assistant** for each media type
-- 📊 **Generation preview** before processing
-- 🎯 **Smart recommendations** based on your choices
-- 📁 **Unified file management** across all media types
-
----
 
 ## 🛠️ Professional Development
 
